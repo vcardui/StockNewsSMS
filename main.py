@@ -28,14 +28,14 @@ Brief: We at Insider Monkey have gone over 821 13F filings that hedge funds and 
 """
 
 # ---------------------- VARIABLES SET UP ---------------------- #
-account_sid = "ACdfd414ca351b736eb95aea0fb85c9e6b"
-auth_token = "274e36e745c7f653d3ea6a0978e7390b"
+account_sid = ""
+auth_token = ""
 
 STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 
 STOCK_ENDPOINT = "http://api.marketstack.com/v1/eod"
-STOCK_API_KEY = "9d3a9aa9ecfaccb1a8f97724c564d96b"
+STOCK_API_KEY = ""
 
 today = dt.datetime.now()
 today_date = str(today).split(" ")[0]
